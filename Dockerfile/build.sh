@@ -4,4 +4,4 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-docker build -t mesosdockerized/mesos-master:latest .
+docker build -t mesosdockerized/mesos-master:1.0.0 .
