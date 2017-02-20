@@ -12,7 +12,7 @@ docker run -d --net=host --name=mesos-master \
  -e MESOS_IP={EXTERNAL_IP} \
  -e MESOS_LOG_DIR=/var/log/mesos \
  -e MESOS_WORK_DIR=/var/tmp/mesos \ 
- quay.io/mesosdockerized/mesos-master:1.0.0
+ quay.io/mesosdockerized/mesos-master:1.1.0
 ```
 
 Check more examples in [mesos-dockerized/mesos-cluster][mesos-cluster-repo] repository.
